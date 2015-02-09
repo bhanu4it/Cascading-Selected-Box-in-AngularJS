@@ -31,3 +31,5 @@ Creating a Select Box in AngularJS is
           <select name="selDisease" ng-hide="!Medsys || Medsys.id <= 0" ng-model="Disease"  ng-change="cleargetxyz(); getxyz(Medsys);">
                 <option ng-repeat="Disease in Diseases" value=" {{ Disease.name }} "> {{ Disease.name }}</option>
             </select>
+            
+            
